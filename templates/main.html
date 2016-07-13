@@ -1,0 +1,107 @@
+<template name="main">
+   <section id="home" name="home"></section>
+   <div id="headerwrap">
+      <div class="container">
+         <div class="row centered">
+            <div class="col-lg-12">
+               <h1><b>Gamsat Tutoring</b></h1>
+               <h3>
+                  My name is Belinda Pin and I received 84 in section 2 of the GAMSAT 2015.
+               </h3>
+               <br>
+            </div>
+            <div class="col-md-4 text-justify">
+               <h5>Amazing Results</h5>
+               <p>I tutored various students for the GAMSAT UK 2015 who improved their scores by minimum of 7 marks, with the standard being roughly 9. My best student got 70 in S2 first time. She did a lot of tutoring through the various services.</p>
+               <img  class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
+            </div>
+            <div class="col-md-7 vcenter">
+               <img class="img-responsive" src="assets/img/GamsatResult.png" alt="">
+               <h3>
+                  Please see below for an explanation of the products I offer.
+               </h3>
+            </div>
+            <div class="col-md-1">
+            </div>
+         </div>
+      </div>
+      <!--/ .container -->
+   </div>
+   <!--/ #headerwrap -->
+   <section id="desc" name="desc"></section>
+   <!-- INTRO WRAP -->
+   <div id="intro">
+      <div class="container">
+         <div class="row centered">
+            <h1>Products</h1>
+            <br>
+            <br>
+            <div class="col-lg-4">
+               <img  src="../assets/img/essay-guide.png" alt="">
+               <h3>The Essay Guide</h3>
+               <div class="text-justify">
+                  <p>The Essay Guide contains over 80 pages of information divided into various sections. These sections (see samples below) include instructions for planning, structuring and writing essays for Part A, Part B, the more intangible essay quotes of Part B, 9 essay plans which include detailed knowledge and examples, common made errors and frequently asked questions (FAQ). It also includes 6 sample essays. This costs $45 or can be bought with one online essay correction for $60.</p>
+               </div>
+               <br>
+               <div class="text-justify">
+                  <p>The common made errors has be created by analysing the mistakes made frequently by students when writing. This guide is designed so that you can purchase and read it thoroughly before beginning your essay writing.</p>
+               </div>
+               <br>
+               <div class="">
+                  <!-- Paypal Button -->
+                  <!-- {{>bookBuyBtn}} -->
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <br>
+               <img width="128" height="128" src="assets/img/online.png" alt="">
+               <h3>Online Essay Corrections </h3>
+               <div class="text-justify">
+                  <p>These assist you to further improve your essay writing habits and techniques. It will ensure you weed out the black spots in your essays. The essay corrections can be purchased as a single essay correction for $20, 5 for $90, 10 for $175 etc. Once you have purchased the amount required you can send in your essays to be corrected. Typical turn-around time for correction is 2-3 days.</p>
+               </div>
+               <br>
+               {{>CTAButton}}
+               <br>
+            </div>
+            <div class="col-lg-4 ">
+               <img width="128" height="128"  src="assets/img/personal_tutoring.png" alt="">
+               <h3>In person tutoring </h3>
+               <div class="text-justify">
+                  <p>From the 22nd of January in person tutoring will be available in Perth and costs $35 per hour. The location preferably is UWA but can also be some surrounding suburbs or in the centre of Perth. Minimum 2 hours is required for tutoring sessions.</p>
+               </div>
+               <br>
+               <img width="128" height="128"  src="assets/img/skype.png" alt="">
+               <img width="100" height="100" src="assets/img/telephone.png" alt="">
+               <h3>Tutoring via phone or skype</h3>
+               <div class="text-justify">
+                  <p>This costs $35 per hour and can be arranged online</p>
+               </div>
+
+            </div>
+         </div>
+
+         <br>
+         <hr>
+      </div>
+      <!--/ .container -->
+   </div>
+
+   <section id="contact" name="contact"></section>
+   <div id="footerwrap">
+      <div class="container">
+         <div class="col-lg-5">
+            <h3>Address</h3>
+            <p>
+               belinda@pinskier.com<br/>
+               Perth,<br/>
+               90873<br/>
+               Australia
+            </p>
+         </div>
+         <div class="col-lg-7">
+            {{>contactFormTemplate}}
+         </div>
+      </div>
+   </div>
+   {{>modalCTAButton}}
+</template>

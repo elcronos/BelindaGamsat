@@ -1,0 +1,17 @@
+<template name="dashboard">
+	<h2>Create a new Post</h2>
+	 <form data-toggle="validator" role="form">
+      <textarea name="editor1" id="editor1" rows="10" cols="150" minlenght="5" maxlength="80" required>
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+                CKEDITOR.instances.editor1.setData('');
+            </script>
+            <input id="inputTitle" placeholder="Title" type="text" minlenght="5" maxlength="80" required>
+            <button id="createpost" type="button" class="btn btn-default">Create Post</button>
+    </form>
+     
+</template>
